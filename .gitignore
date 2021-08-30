@@ -6,3 +6,5 @@
 
 # Env
 .env
+
+chromedriver.exe

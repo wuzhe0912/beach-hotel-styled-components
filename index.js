@@ -1,10 +1,12 @@
 require('dotenv').config();
+const webdriver = require('selenium-webdriver');
 
-function getVariable() {
-  const variable = process.env.SPREADSHEET_ID;
-  console.log(variable);
+async function openCrawlerWeb() {
+  let driver = await new webdriver.Builder().forBrowser('chrome').build();
+
+  const web = 'https://medium.com/dean-lin';
+
+  driver.get(web);
 }
 
-getVariable();
-
-console.log('Running');
+openCrawlerWeb();
