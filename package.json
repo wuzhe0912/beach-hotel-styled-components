@@ -11,6 +11,7 @@
     "clean:start": "rm -fr node_modules yarn.lock && yarn && yarn dev"
   },
   "dependencies": {
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "selenium-webdriver": "^4.0.0-beta.4"
   }
 }
