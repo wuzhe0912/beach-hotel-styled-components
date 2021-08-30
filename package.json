@@ -1,0 +1,16 @@
+{
+  "name": "node-wriver",
+  "version": "1.0.0",
+  "description": "learning crawler with node.js",
+  "main": "index.js",
+  "repository": "git@github.com:wuzhe0912/node-wriver.git",
+  "author": "Pitt Wu <kgb00128@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js",
+    "clean:start": "rm -fr node_modules yarn.lock && yarn && yarn dev"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
