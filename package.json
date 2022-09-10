@@ -8,5 +8,8 @@
   "scripts": {
     "dev": "node src/index.js",
     "init": "rm -rf node_modules yarn.lock && yarn && yarn dev"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2"
   }
 }
